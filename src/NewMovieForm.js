@@ -18,11 +18,14 @@ export default function NewMovieForm({onCreate}) {
         <input
           type="text"
           placeholder="New movie title"
+          data-cy="new-movie-title-field"
           value={inputText}
           onChange={e => setInputText(e.target.value)}
         />
       </label>
-      <button type="submit">Save</button>
+      <button type="submit" data-cy="save-movie-button">
+        Save
+      </button>
     </form>
   );
 }

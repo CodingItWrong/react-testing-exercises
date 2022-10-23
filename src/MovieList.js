@@ -21,7 +21,7 @@ export default function MovieList() {
   return (
     <div>
       <NewMovieForm onCreate={handleCreate} />
-      <ul>
+      <ul data-cy="movies">
         {movies.map(movie => (
           <MovieRow key={movie.id} movie={movie} />
         ))}

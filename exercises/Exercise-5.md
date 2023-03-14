@@ -2,7 +2,7 @@
 
 # Exercise 5: Testing Hooks
 
-For this exercise, we are going to add tests for the `CounterHook` component found in `src/CounterHook.js`.
+For this exercise, we are going to add tests for the `CounterHook` component found in `src/useCounter.js`.
 
 The custom hook is already written and functioning, but there are not yet any tests for it.
 

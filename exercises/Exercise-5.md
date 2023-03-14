@@ -2,11 +2,11 @@
 
 # Exercise 5: Testing Hooks
 
-// TODO: Write desc 
+For this exercise, we are going to add tests for the `CounterHook` component found in `src/CounterHook.js`.
 
-## Designing Your Tests
+The custom hook is already written and functioning, but there are not yet any tests for it.
 
-// TODO: Write desc 
+Create a file `src/CounterHook.spec.js` and add all the tests that you need to specify the hook behavior.
 
 ## Getting Help
 
